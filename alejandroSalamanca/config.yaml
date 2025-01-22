@@ -1,0 +1,295 @@
+baseURL: https://aleyi17.github.io
+languageCode: en-us
+title: Alejandro Salamanca
+
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Alejandro Salamanca"
+  description: Page about me jejeje
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/images/105326934.jpg"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Alejandro Salamanca" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Alejandro."
+    subtitle: "Cloud-native enthusiast."
+    content: |-
+      A passionate software engineer focused on building cloud-native applications with Kubernetes, delivering scalable and reliable solutions.
+    # image: /images/hero.svg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/ALEYI17
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/alejandro-salamanca
+        - icon: fab fa-gitlab
+          url: https://gitlab.com/ALEYI17
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "https://avatars.githubusercontent.com/u/105326934?s=400&u=eaa448ba9479ef4be02cabf7a3feee5f0081ee34&v=4"
+    content: |-
+      I am passionate about cloud-native technologies and love working with Kubernetes. My work often revolves around creating applications designed to run seamlessly on Kubernetes while embracing DevOps methodologies to ensure efficiency and scalability.
+
+      Outside of coding, I enjoy learning about new technologies and exploring innovative tools to stay at the forefront of the tech landscape.
+    skills:
+      enable: true
+      title: "Technologies I work with:"
+      items:
+        - "**Cloud & DevOps:** Kubernetes, Docker, AWS, GCP, Terraform, ArgoCD"
+        - "**Programming:** Java, Python, GO, TypeScript"
+        - "**Frameworks:** Spring Boot, Quarkus, Vue.js, Angular"
+        - "**CI/CD:** GitHub Actions, GitLab"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "Web Developer Intern"
+        company: "Fundación PROSOFI"
+        companyUrl: "https://www.javeriana.edu.co/consultorio-contable/-/aliado-prosofi"
+        date: "January 2024 - June 2024"
+        content: "Developed and launched the official website for UPZ La Flora, enhancing the organization’s online presence and community engagement."
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Bachelor in Software Engineering"
+        school:
+          name: " Pontificia Universidad Javeriana"
+          url: "https://www.javeriana.edu.co/inicio"
+        date: "2021 - 2025"
+        GPA: "4.49 out of 5.0"
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: "SPOK"
+        content: |
+          Developed a web platform for EEG signal processing, utilizing microservices and Kubernetes. Scalable algorithms such as signal averaging and Wavelet transforms were 
+          implemented to efficiently handle large datasets. Automated CI/CD pipeline with GitHub Actions and ArgoCD ensured seamless deployments to a GCP GKE Kubernetes cluster 
+          for high availability.
+        featured:
+          name: "GitHub Repo"
+          link: "https://github.com/orgs/SPOC-PUJ/repositories"
+        badges:
+          - "Kubernetes"
+          - "Microservices"
+          - "CI/CD"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/orgs/SPOC-PUJ/repositories"
+
+      - title: "Masyu Solver"
+        content: |
+          Built a solver for the NP-complete Masyu puzzle using advanced search algorithms and heuristics. Designed to efficiently handle complex puzzle configurations, 
+          with an intuitive user interface for testing and validating solutions.
+        featured:
+          name: "GitHub Repo"
+          link: "https://github.com/ALEYI17/Masyu-solver"
+        badges:
+          - "Algorithm"
+          - "JavaScript"
+          - "NP-Complete"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/ALEYI17/Masyu-solver"
+
+      - title: "Lox Learning"
+        content: |
+          Implemented a programming language based on "Crafting Interpreters" with a fully functional interpreter. The project provided deep insight into compiler theory, 
+          including parsing, syntax trees, and runtime evaluation, with continued maintenance and feature expansion.
+        featured:
+          name: "GitHub Repo"
+          link: "https://github.com/ALEYI17/lox_learning"
+        badges:
+          - "Compiler Theory"
+          - "Programming Language"
+          - "Java"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/ALEYI17/lox_learning"
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: |- 
+      I’d love to hear from you! Whether you have a question, a project idea, or just want to chat, don’t hesitate to reach out. I’m always open to new opportunities and collaborations, and I’ll do my best to get back to you as soon as possible.
+    btnName: "Get in Touch"
+    btnLink: mailto:aleelaleyi@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/ALEYI17
+      linkedin: https://www.linkedin.com/in/alejandro-salamanca
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
