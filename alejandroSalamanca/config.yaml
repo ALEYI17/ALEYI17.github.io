@@ -132,12 +132,12 @@ params:
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
-    button:
-      enable: true
-      name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
+    # button:
+    #   enable: true
+    #   name: "Resume"
+    #   url: "#"
+    #   download: true
+    #   newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -266,13 +266,14 @@ params:
       github: https://github.com/ALEYI17
       linkedin: https://www.linkedin.com/in/alejandro-salamanca
 
+
   # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false
 
   # Single pages like blog and post
   singlePages:
-    socialShare: true
+    socialShare: false
     readTime:
       enable: true
       content: "min read"
