@@ -1,7 +1,7 @@
 ---
 title: "Part 2: Setting Up a CI/CD Pipeline with GitLab CI"
 date: 2025-01-25T15:44:45-05:00
-draft: true
+draft: false
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/GitLab_logo_%282%29.svg/1024px-GitLab_logo_%282%29.svg.png
 author: "Alejandro Salamanca"
 github_link: "https://gitlab.com/devopsdemo2374651/CurrencyConversion"
