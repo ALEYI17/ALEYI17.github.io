@@ -8,7 +8,7 @@ github_link: "https://gitlab.com/devopsdemo2374651/CurrencyConversion"
 tags:
   - Helm
   - Kubernetes
-  - Go tamplate
+  - Go template
 ---
 
 [GitLab Repository](https://gitlab.com/devopsdemo2374651/CurrencyConversion)
