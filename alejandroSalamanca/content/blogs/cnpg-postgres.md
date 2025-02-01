@@ -1,7 +1,7 @@
 ---
 title: "Part 4: Managing PostgreSQL with CNPG Operator"
 date: 2025-02-01T16:16:25-05:00
-draft: true
+draft: false
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/200px-Postgresql_elephant.svg.png
 author: "Alejandro Salamanca"
 github_link: "https://gitlab.com/devopsdemo2374651/CurrencyConversion"
