@@ -160,7 +160,7 @@ params:
       enable: true
       title: "Technologies I work with:"
       items:
-        - "**Cloud & DevOps:** Kubernetes, Docker, AWS, GCP, Terraform, ArgoCD"
+        - "**Cloud & DevOps:** Kubernetes, Docker, AWS, GCP"
         - "**Programming:** Java, Python, GO, TypeScript"
         - "**Frameworks:** Spring Boot, Quarkus, Vue.js, Angular"
         - "**CI/CD:** GitHub Actions, GitLab"
