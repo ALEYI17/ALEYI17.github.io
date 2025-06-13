@@ -3,6 +3,8 @@ title: "InfraSight: Linux & Kubernetes Observability from Syscall to Dashboard"
 date: 2025-06-13T13:52:20-05:00
 draft: false
 author: "Alejandro Salamanca"
+image: https://searchvectorlogo.com/wp-content/uploads/2023/06/ebpf-io-authors-logo-vector.png
+github_link: https://github.com/ALEYI17/InfraSight
 tags:
   - eBPF
   - Linux
