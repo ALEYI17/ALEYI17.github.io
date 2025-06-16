@@ -210,35 +210,22 @@ params:
           - icon: fab fa-github
             url: "https://github.com/orgs/SPOC-PUJ/repositories"
 
-      - title: "Masyu Solver"
+      - title: "InfraSight"
         content: |
-          Built a solver for the NP-complete Masyu puzzle using advanced search algorithms and heuristics. Designed to efficiently handle complex puzzle configurations, 
-          with an intuitive user interface for testing and validating solutions.
+          Designed and built a real-time eBPF-based observability platform to trace low-level system activity across Kubernetes nodes. InfraSight captures syscalls such as `execve`, `open`, 
+          `connect`, and `accept4` to surface fine-grained process and network behavior. Events are enriched with user, process, and container metadata, then streamed via gRPC and 
+          stored in ClickHouse for fast querying.
         featured:
           name: "GitHub Repo"
-          link: "https://github.com/ALEYI17/Masyu-solver"
+          link: "https://github.com/ALEYI17/infrasight"
         badges:
-          - "Algorithm"
-          - "JavaScript"
-          - "NP-Complete"
+          - "eBPF"
+          - "Kubernetes"
+          - "ClickHouse"
+          - "Observability"
         links:
           - icon: fab fa-github
-            url: "https://github.com/ALEYI17/Masyu-solver"
-
-      - title: "Lox Learning"
-        content: |
-          Implemented a programming language based on "Crafting Interpreters" with a fully functional interpreter. The project provided deep insight into compiler theory, 
-          including parsing, syntax trees, and runtime evaluation, with continued maintenance and feature expansion.
-        featured:
-          name: "GitHub Repo"
-          link: "https://github.com/ALEYI17/lox_learning"
-        badges:
-          - "Compiler Theory"
-          - "Programming Language"
-          - "Java"
-        links:
-          - icon: fab fa-github
-            url: "https://github.com/ALEYI17/lox_learning"
+            url: "https://github.com/ALEYI17/infrasight"
 
   #Contact
   contact:
