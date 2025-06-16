@@ -212,8 +212,8 @@ params:
 
       - title: "InfraSight"
         content: |
-          Designed and built a real-time eBPF-based observability platform to trace low-level system activity across Kubernetes nodes. InfraSight captures syscalls such as `execve`, `open`, 
-          `connect`, and `accept4` to surface fine-grained process and network behavior. Events are enriched with user, process, and container metadata, then streamed via gRPC and 
+          Designed and built a real-time eBPF-based observability platform to trace low-level system activity across Kubernetes nodes. InfraSight captures syscalls such as execve, open, 
+          connect, and accept to surface fine-grained process and network behavior. Events are enriched with user, process, and container metadata, then streamed via gRPC and 
           stored in ClickHouse for fast querying.
         featured:
           name: "GitHub Repo"
